@@ -22,7 +22,7 @@ Playable on desktop and mobile browsers, this project offers an engaging and res
 
 ## 🕹️ Play Now
 
-**[▶️ Live Demo](#)** *(link)*  
+** *https://diehlpedro.github.io/chess-p5-js/*  
 Or clone the project and open `index.html` locally.
 
 ---
