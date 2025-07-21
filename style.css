@@ -1,0 +1,57 @@
+* {
+    text-align: center;
+    font-family: 'Calibri', sans-serif;
+}
+
+div {
+    width: 100%;
+}
+
+#turn {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+button {
+    font-size: 1.3em;
+    margin: 0.3em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 26, 26);
+}
+
+.clicked {
+    background-color: rgb(219, 219, 219) !important;
+    color: rgb(32, 32, 32) !important;
+}
+
+.white {
+    color: rgb(235, 235, 235);
+    background-color: rgb(54, 54, 54);
+}
+
+.black {
+    color: rgb(24, 24, 24);
+    background-color: rgb(196, 196, 196);
+}
+
+p {
+    margin: 0em;
+    padding: 0.4em 0;
+}
+
+.take {
+    color: rgb(223, 0, 0) !important;
+}
+
+.white-p {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.black-p {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
