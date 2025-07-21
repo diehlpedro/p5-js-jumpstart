@@ -77,6 +77,9 @@ This project is open source and available under the MIT License.
 ## 👤 Author
 
 Made with JavaScript and strategy by Pedro Diehl
+
 https://github.com/diehlpedro
+
 https://www.linkedin.com/in/pedro-diehl/
+
 pedro_diehl@yahoo.com.br
