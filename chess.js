@@ -26,9 +26,6 @@ let showHighlights = true // Show highlights for allowed moves and takes
 // Setup function from p5.js
 function setup() {
   const canvas = createCanvas(canvasSize, canvasSize).parent('chess-board')
-  canvas.elt.addEventListener('touchstart', function (e) {
-    e.preventDefault();
-  }, { passive: false })
   textFont("Calibri")
   createPieces()
 }
