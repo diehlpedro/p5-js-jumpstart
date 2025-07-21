@@ -60,6 +60,7 @@ Then open `index.html` in your browser.
 ## 🗺️ Roadmap / TODOs
 
 - [ ] Implement `isCheck` logic and highlights  
+- [ ] Implement more fixes for better Safari experience
 - [ ] Improve visuals  
 - [ ] Implement undo/redo functionality  
 - [ ] Implement multiplayer with WebSocket  
