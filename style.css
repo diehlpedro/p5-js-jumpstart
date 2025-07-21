@@ -7,6 +7,10 @@ div {
     width: 100%;
 }
 
+canvas {
+  touch-action: none;
+}
+
 #turn {
     font-weight: bold;
     font-size: 3em;

@@ -25,7 +25,10 @@ let showHighlights = true // Show highlights for allowed moves and takes
 
 // Setup function from p5.js
 function setup() {
-  createCanvas(canvasSize, canvasSize).parent('chess-board')
+  const canvas = createCanvas(canvasSize, canvasSize).parent('chess-board')
+  canvas.elt.addEventListener('touchstart', function (e) {
+    e.preventDefault();
+  }, { passive: false })
   textFont("Calibri")
   createPieces()
 }
@@ -465,7 +468,8 @@ function showPlays() {
 }
 
 // Function to handle mouse clicks inside the chessboard
-function mouseClicked() {
+// Changed from mouseClicked() to touchStarted()
+function touchStarted() {
   if (gameEnded) return // If game ended, do not allow further moves
   if (mouseX >= 0 && mouseX <= canvasSize && mouseY >= 0 && mouseY <= canvasSize) {
     const x = parseInt(mouseX / squareSize) + 1
@@ -528,6 +532,8 @@ function mouseClicked() {
     }
     selectedSlot = { x: x, y: y, spot: convertToLetter(x) + y }
   }
+
+  return false
 }
 
 class Piece {
