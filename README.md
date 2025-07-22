@@ -60,9 +60,9 @@ Then open `index.html` in your browser.
 ## 🗺️ Roadmap / TODOs
 
 - [ ] Implement `isCheck` logic and highlights  
+- [ ] Implement castling and en passant plays
 - [ ] Implement more fixes for better Safari experience
-- [ ] Improve visuals  
-- [ ] Implement undo/redo functionality  
+- [ ] Implement undo functionality  
 - [ ] Implement multiplayer with WebSocket  
 - [ ] Add feature with classic plays for a better learning experience  
 - [ ] Add AI opponent  

@@ -258,8 +258,6 @@ function checkPawnMoves(piece) {
   if (diagLeftPiece !== false && diagLeftPiece.color !== isBlackTurn) {
     allowedTakes.push(diagLeftPiece);
   }
-
-  // TODO: if reach end of board, promote to QUEEN (tower, horse or bishop)
 }
 
 function checkPiece(x, y) {
@@ -406,8 +404,7 @@ function showPlays() {
 }
 
 // Function to handle mouse clicks inside the chessboard
-// Changed from mouseClicked() to touchStarted()
-function touchStarted() {
+function mouseClicked() {
   if (isGameOver) return; // If game ended, do not allow further moves
   if (mouseX >= 0 && mouseX <= canvasSize && mouseY >= 0 && mouseY <= canvasSize) {
     const x = parseInt(mouseX / squareSize) + 1;
