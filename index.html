@@ -3,31 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="Chess" />
-    <link rel="manifest" href="./site.webmanifest" />
     <link rel="stylesheet" href="style.css">
     <script src="p5.js"></script>
-    <script src="chess.js"></script>
+    <script src="sketch.js"></script>
     <script src="buttons.js"></script>
-    <title>Chess - Pedro Diehl</title>
+    <title>p5 Pedro Diehl</title>
 </head>
-<body class="white">
-    <div id="chess-board" class=""></div>
-    <div id="turn" class="">
-        WHITE TURN
-    </div>
-    <div class="">
-        <button id="btnRestart" class="" onclick="buttonClicks('R')" type="button">Restart</button>
-        <button id="btnHistory" class="clicked" onclick="buttonClicks('P')" type="button">History</button>
-        <button id="btnHighlights" class="clicked" onclick="buttonClicks('H')" type="button">Highlights</button>
-        <button id="btnNotation" class="" onclick="buttonClicks('N')" type="button">Notation</button>
-        <button id="btnFullscreen" class="" onclick="buttonClicks('F')" type="button">Fullscreen</button>
-    </div>
-    <div id="plays"></div>
+<body class="">
+    <div id="canvas" class=""></div>
 </body>
 
 </html>
